@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+#part1{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: white;
+
+}
+#nbar{
+    width: 100%;
+    height: 5%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    display: flex;
+    align-items: flex-end;
+}
+#text i{
+    color: royalblue;
+}
+#text a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    right: 50%;
+}
+#textcenter{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    
+}
+#textcenter p{
+    font-size: 12px;
+    opacity: .5;
+    text-align: justify;
+}
+
+
+#part2{
+    height: 100%;
+    width: 60%;
+    background-color: teal ;
+}
+#upper{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+}
+
+#uleft{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(40, 31, 117);
+    align-items: center;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(https://images.unsplash.com/photo-1501959915551-4e8d30928317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+}
+#uright{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80);
+    background-position: center;
+    background-size: cover;
+
+
+}
+#lower{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1562500744-4e8098055ce2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80); 
+    background-size: cover;
+    background-position: bottom;
+     
+}
